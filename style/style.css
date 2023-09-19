@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: cursive;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+body {
+    background-color: rgb(8, 8, 41);
+    background-image: url(https://planets-fact-site-whro.vercel.app/assets/background-stars-00f213fd.svg);
+    height: 800px
+}
+.navbar {
+    padding: 10px;
+}
+.logo {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    margin: 16px 0 16px 24px;
+    color: #fff;
+    font-family: Antonio;
+}
+.menu{
+    gap: 30px;
+}
+.menu a{
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: League Spartan, sans-serif;
+}
+hr{
+    background-color: rgb(34, 36, 38);
+    opacity: .2;
+}
+.middleDiv{
+    padding: 50px 150px;
+    margin: 50px;
+}
+.pic{
+    position: relative;
+}
+.planetPic{
+    max-height: 25rem;
+}
+.innerPic{
+    position: absolute;
+    left: 5.6rem;
+    top: 18rem;
+    height: 17rem;
+}
+.planetInfo h1{
+    font-size: 5rem;
+    font-weight: 100;
+    color: #fff;
+    font-family: Antonio;
+}
+.desctiption {
+    width: 32rem;
+    font-size: 10px;
+    color: gray;
+    font-family: League Spartan, sans-serif;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.options{
+    margin-top: 50px;
+    font-family: League Spartan, sans-serif;
+}
+.options div{
+    padding: 1rem;
+    margin-top: .5rem;
+    border: 1px solid rgba(255,255,255,.2);
+    cursor: pointer;
+}
+.options div:hover {
+    background-color: #ffffff48;
+}
+.number{
+    color: gray;
+    font-weight: bold;
+}
+.info{
+    color: white;
+    margin-left: 1rem;
+    font-family: League Spartan, sans-serif;
+    font-weight: bold;
+}
+
+.bottomDiv{
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 22px;
+}
+.bottomDiv div{
+    border: 1px solid rgba(255,255,255,.2);
+    padding:2rem;
+    width: 30rem;
+} 
+.bottomDiv div h1{
+    color: white;
+    font-family: League Spartan, sans-serif;
+    font-weight: bold;
+    font-size: 4rem;
+    margin-top: 1rem;
+}   
+.wikipedia{
+    color: gray;
+    font-family: League Spartan, sans-serif;
+    cursor: pointer;
+}
+
+html{
+    font-size: 70%;
+}
